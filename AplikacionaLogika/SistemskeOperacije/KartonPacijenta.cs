@@ -21,7 +21,7 @@ namespace AplikacionaLogika.SistemskeOperacije
                 foreach (var dijagnoza in dijagnoze)
                 {
                     broker.GenerickiUnos(dijagnoza);
-                    dijagnoze = broker.GenerickiSelect(new Dijagnoza()).OfType<Dijagnoza>().ToList();
+                    //dijagnoze = broker.GenerickiSelect(new Dijagnoza()).OfType<Dijagnoza>().ToList();
                 }
             }
         }

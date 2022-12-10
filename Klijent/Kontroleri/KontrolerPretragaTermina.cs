@@ -131,8 +131,7 @@ namespace Klijent.Kontroleri
                     MessageBoxButtons.YesNoCancel);
                 if (result == DialogResult.Yes)
                 {
-                    Odgovor odgovor =
-                        Transfer.Transfer.Instance.PosaljiZahtev(SistemskaOperacija.ObrisiTermin, termin);
+                    Odgovor odgovor = Transfer.Transfer.Instance.PosaljiZahtev(SistemskaOperacija.ObrisiTermin, termin);
                     if (odgovor != null && odgovor.Uspesno)
                     {
                         MessageBox.Show("Uspesno ste obrisali termin!");

@@ -4,3 +4,8 @@ E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.csprojAssemblyReference
 E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.csproj.CoreCompileInputs.cache
 E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.dll
 E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Podaci\bin\Debug\Podaci.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Podaci\bin\Debug\Podaci.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.csprojAssemblyReference.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.pdb

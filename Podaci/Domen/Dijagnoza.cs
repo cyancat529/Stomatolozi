@@ -49,22 +49,22 @@ namespace Podaci.Domen
 
         public string VrednostiZaUnos()
         {
-            return $"'{DatumDijagnoze}','{NazivDijagnoze}','{OpisDijagnoze}',{Pacijent.IdPacijent},{Stomatolog.IdStomatolog}";
+            return $"'{NazivDijagnoze}','{OpisDijagnoze}',{Pacijent.IdPacijent},{Stomatolog.IdStomatolog},'{DatumDijagnoze.ToString("yyyy-MM-dd")}'";
         }
 
         public string VrednostiZaIzmenu()
         {
-            return $"nazivDijagnoze = '{NazivDijagnoze}',opisDijagnoze = '{OpisDijagnoze}',idPacijent = {Pacijent.IdPacijent},idStomatolog = {Stomatolog.IdStomatolog}";
+            return $"datumDijagnoze = '{DatumDijagnoze}', nazivDijagnoze = '{NazivDijagnoze}', opisDijagnoze = '{OpisDijagnoze}', idPacijent = {Pacijent.IdPacijent}, idStomatolog = {Stomatolog.IdStomatolog}";
         }
 
         public string VrednostiZaJoinUpit()
         {
-            return "join Pacijent p on (p.idPacijent = d.idPacijent) join Stomatolog s on (s.idStomatolog = d.idStomatolog)";
+            return "join Pacijent p on (p.idPacijent = d.idPacijent)";
         }
 
         public string VrednostiZaWhereUpit()
         {
-            return $"idDijagnoze =  {IdDijagnoze}";
+            return $"datumDijagnoze = '{DatumDijagnoze}' AND nazivDijagnoze = '{NazivDijagnoze}' AND opisDijagnoze = '{OpisDijagnoze}' AND idPacijent = { Pacijent.IdPacijent } AND idStomatolog = { Stomatolog.IdStomatolog }";
         }
 
         public List<IDomenskiObjekat> VratiVrednosti(SqlDataReader reader)
@@ -85,7 +85,7 @@ namespace Podaci.Domen
                 string nazivDijagnoze = reader[1].ToString();
                 string opis = reader[2].ToString();
                 int idDijagnoze = Convert.ToInt32(reader[0]);
-                DateTime datumDijagnoze = Convert.ToDateTime(reader[3]);
+                DateTime datumDijagnoze = Convert.ToDateTime(reader[5]);
 
                 Dijagnoza d = new Dijagnoza(idDijagnoze,datumDijagnoze, nazivDijagnoze, opis, s, pacijent);
                 objekti.Add(d);

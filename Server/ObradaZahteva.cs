@@ -70,9 +70,11 @@ namespace Server
                     case SistemskaOperacija.UcitajListuPacijenata: return Kontroler.Instance.UcitajListuPacijenata(zahtev);
                     case SistemskaOperacija.VratiTerminePoKriterijumu: return Kontroler.Instance.VratiTerminePoKriterijumu(zahtev);
                     case SistemskaOperacija.ObrisiTermin: return Kontroler.Instance.ObrisiTermin(zahtev);
+                    case SistemskaOperacija.ObrisiDijagnozu: return Kontroler.Instance.ObrisiDijagnozu(zahtev);
                     case SistemskaOperacija.SacuvajSlobodneTermine: return Kontroler.Instance.SacuvajSlobodneTermine(zahtev);
                     case SistemskaOperacija.SacuvajNovogStomatologa: return Kontroler.Instance.SacuvajNovogStomatologa(zahtev);
                     case SistemskaOperacija.KartonPacijenta: return Kontroler.Instance.KartonPacijenta(zahtev);
+                    case SistemskaOperacija.UcitajKartonPacijenta: return Kontroler.Instance.UcitajKartonPacijenta(zahtev);
                     case SistemskaOperacija.UcitajListuStomatologa: return Kontroler.Instance.UcitajListuStomatologa(zahtev);
                     case SistemskaOperacija.SacuvajNoviRacun: return Kontroler.Instance.UcitajListuTermina(zahtev);
                     case SistemskaOperacija.SacuvajNovuUslugu: return Kontroler.Instance.UcitajSlobodanTermin(zahtev);

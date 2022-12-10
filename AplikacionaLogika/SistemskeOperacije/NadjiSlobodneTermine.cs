@@ -22,6 +22,7 @@ namespace AplikacionaLogika.SistemskeOperacije
                 {
                     Elementi.Add(termin);
                 }
+
             }
         }
     }

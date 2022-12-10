@@ -42,12 +42,14 @@ namespace Klijent.Ekranske_forme
             this.btnPretraziDijagnoze = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtDatumDijagnoze = new System.Windows.Forms.TextBox();
+            this.btnOtkaziDijagnozu = new System.Windows.Forms.Button();
+            this.btnObrisi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSacuvaj
             // 
-            this.btnSacuvaj.Location = new System.Drawing.Point(811, 184);
+            this.btnSacuvaj.Location = new System.Drawing.Point(823, 236);
             this.btnSacuvaj.Name = "btnSacuvaj";
             this.btnSacuvaj.Size = new System.Drawing.Size(107, 41);
             this.btnSacuvaj.TabIndex = 45;
@@ -60,7 +62,7 @@ namespace Klijent.Ekranske_forme
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(288, 18);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(500, 207);
+            this.dataGridView1.Size = new System.Drawing.Size(500, 259);
             this.dataGridView1.TabIndex = 44;
             // 
             // btnSkloni
@@ -113,7 +115,7 @@ namespace Klijent.Ekranske_forme
             // 
             this.txtNaziv.Location = new System.Drawing.Point(12, 119);
             this.txtNaziv.Name = "txtNaziv";
-            this.txtNaziv.Size = new System.Drawing.Size(258, 20);
+            this.txtNaziv.Size = new System.Drawing.Size(261, 20);
             this.txtNaziv.TabIndex = 36;
             // 
             // label4
@@ -129,17 +131,18 @@ namespace Klijent.Ekranske_forme
             // 
             this.txtOpis.Location = new System.Drawing.Point(12, 158);
             this.txtOpis.Name = "txtOpis";
-            this.txtOpis.Size = new System.Drawing.Size(258, 20);
+            this.txtOpis.Size = new System.Drawing.Size(261, 20);
             this.txtOpis.TabIndex = 46;
             // 
             // btnPretraziDijagnoze
             // 
-            this.btnPretraziDijagnoze.Location = new System.Drawing.Point(15, 185);
+            this.btnPretraziDijagnoze.Location = new System.Drawing.Point(15, 232);
             this.btnPretraziDijagnoze.Name = "btnPretraziDijagnoze";
             this.btnPretraziDijagnoze.Size = new System.Drawing.Size(120, 39);
             this.btnPretraziDijagnoze.TabIndex = 48;
             this.btnPretraziDijagnoze.Text = "Pretrazi";
             this.btnPretraziDijagnoze.UseVisualStyleBackColor = true;
+            this.btnPretraziDijagnoze.Click += new System.EventHandler(this.btnPretraziDijagnoze_Click);
             // 
             // label1
             // 
@@ -152,16 +155,37 @@ namespace Klijent.Ekranske_forme
             // 
             // txtDatumDijagnoze
             // 
-            this.txtDatumDijagnoze.Location = new System.Drawing.Point(15, 74);
+            this.txtDatumDijagnoze.Location = new System.Drawing.Point(12, 78);
             this.txtDatumDijagnoze.Name = "txtDatumDijagnoze";
-            this.txtDatumDijagnoze.Size = new System.Drawing.Size(255, 20);
+            this.txtDatumDijagnoze.Size = new System.Drawing.Size(261, 20);
             this.txtDatumDijagnoze.TabIndex = 50;
+            // 
+            // btnOtkaziDijagnozu
+            // 
+            this.btnOtkaziDijagnozu.Location = new System.Drawing.Point(141, 232);
+            this.btnOtkaziDijagnozu.Name = "btnOtkaziDijagnozu";
+            this.btnOtkaziDijagnozu.Size = new System.Drawing.Size(132, 39);
+            this.btnOtkaziDijagnozu.TabIndex = 51;
+            this.btnOtkaziDijagnozu.Text = "Otkaži";
+            this.btnOtkaziDijagnozu.UseVisualStyleBackColor = true;
+            // 
+            // btnObrisi
+            // 
+            this.btnObrisi.Location = new System.Drawing.Point(15, 185);
+            this.btnObrisi.Name = "btnObrisi";
+            this.btnObrisi.Size = new System.Drawing.Size(120, 39);
+            this.btnObrisi.TabIndex = 52;
+            this.btnObrisi.Text = "Obriši dijagnozu";
+            this.btnObrisi.UseVisualStyleBackColor = true;
+            this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click);
             // 
             // UnosProblemaEF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 236);
+            this.ClientSize = new System.Drawing.Size(958, 289);
+            this.Controls.Add(this.btnObrisi);
+            this.Controls.Add(this.btnOtkaziDijagnozu);
             this.Controls.Add(this.txtDatumDijagnoze);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnPretraziDijagnoze);
@@ -199,5 +223,7 @@ namespace Klijent.Ekranske_forme
         private System.Windows.Forms.Button btnPretraziDijagnoze;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtDatumDijagnoze;
+        private System.Windows.Forms.Button btnOtkaziDijagnozu;
+        private System.Windows.Forms.Button btnObrisi;
     }
 }

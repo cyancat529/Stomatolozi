@@ -24,7 +24,7 @@ namespace Klijent.Ekranske_forme
 
         private void btnDodaj_Click(object sender, EventArgs e)
         {
-            KontrolerUnosProblema.Instance.Dodaj(txtNaziv,txtOpis, txtDatumDijagnoze,cmbPacijent,dataGridView1);
+            KontrolerUnosProblema.Instance.Dodaj(txtDatumDijagnoze,txtNaziv,txtOpis,cmbPacijent,dataGridView1);
         }
         private void UnosProblemaEF_Load(object sender, EventArgs e)
         {
@@ -38,8 +38,19 @@ namespace Klijent.Ekranske_forme
 
         private void btnSacuvaj_Click(object sender, EventArgs e)
         {
-            KontrolerUnosProblema.Instance.Sacuvaj();
+            KontrolerUnosProblema.Instance.Sacuvaj(dataGridView1);
             
+        }
+
+        private void btnPretraziDijagnoze_Click(object sender, EventArgs e)
+        {
+            KontrolerUnosProblema.Instance.Pretrazi(dataGridView1, cmbPacijent);
+
+        }
+
+        private void btnObrisi_Click(object sender, EventArgs e)
+        {
+            KontrolerUnosProblema.Instance.Obrisi(txtDatumDijagnoze, txtNaziv, txtOpis, cmbPacijent, dataGridView1);
         }
     }
 }

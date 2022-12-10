@@ -16,6 +16,7 @@ namespace Klijent.Kontroleri
     {
         private static KontrolerUnosProblema instance;
         private BindingList<Dijagnoza> lista;
+        private BindingList<Dijagnoza> listaTrenutnih;
         private KontrolerUnosProblema()
         {
 
@@ -39,6 +40,7 @@ namespace Klijent.Kontroleri
             }
 
             lista = new BindingList<Dijagnoza>();
+            listaTrenutnih = new BindingList<Dijagnoza>();
             dataGridView1.DataSource = lista;
         }
 
@@ -47,6 +49,7 @@ namespace Klijent.Kontroleri
             Dijagnoza dij = FormirajDijagnozu(txtDatumDijagnoze, txtNaziv, txtOpis,cmbPacijent);
             if (dij == null) return;
             lista.Add(dij);
+            listaTrenutnih.Add(dij);
             dataGridView1.DataSource = lista;
         }
 
@@ -55,7 +58,7 @@ namespace Klijent.Kontroleri
             if (!DateTime.TryParseExact(txtDatumDijagnoze.Text, "dd/MM/yyyy HH:mm",
                 CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime datumDijagnoze))
             {
-                MessageBox.Show("Pogresno ste uneli datum. Mora biti u formatu dd/MM/yyyy hh:MM");
+                MessageBox.Show("Pogresno ste uneli datum. Mora biti u formatu dd/MM/yyyy hh:mm -> " + txtDatumDijagnoze.Text);
                 return null;
             }
             if (datumDijagnoze <= DateTime.Now)
@@ -102,14 +105,13 @@ namespace Klijent.Kontroleri
             }
         }
 
-        public void Sacuvaj()
+        public void Sacuvaj(DataGridView dataGridView1)
         {
             if (lista.Count == 0)
             {
                 MessageBox.Show("Unesite makar jednu dijagnozu");
                 return;
             }
-
 
             Odgovor odgovor =
                 Transfer.Transfer.Instance.PosaljiZahtev(SistemskaOperacija.KartonPacijenta, lista.ToList());
@@ -123,5 +125,77 @@ namespace Klijent.Kontroleri
             }
         }
 
+        public void Pretrazi(DataGridView dataGridView1, ComboBox cmbPacijent)
+        {
+            Pacijent pacijent = cmbPacijent.SelectedItem as Pacijent;
+
+            if (pacijent == null || pacijent.IdPacijent == 0)
+            {
+                MessageBox.Show("Morate izabrati pacijenta!");
+                return;
+            }
+
+            KriterijumPretrage kp = new KriterijumPretrage(pacijent);
+            Odgovor odgovor = Transfer.Transfer.Instance.PosaljiZahtev(SistemskaOperacija.UcitajKartonPacijenta, kp);
+            if (odgovor != null && odgovor.Uspesno)
+            {
+                List<Dijagnoza> listaP = (List<Dijagnoza>)odgovor.Podaci;
+                if (listaP.Count > 0)
+                {
+                    MessageBox.Show("Sistem je pronasao termine po zadatim parametrima!");
+                    lista = new BindingList<Dijagnoza>(listaP);
+                    dataGridView1.DataSource = listaP;
+                    // SortiranjeUtil(dataGridView1);
+                }
+                else
+                {
+                    MessageBox.Show("Nisu Pronadjene dijagnoze!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nisu pronadjene dijagnoze!");
+            }
+        }
+
+        public void Obrisi(TextBox txtDatumDijagnoze, TextBox txtNaziv, TextBox txtOpis, ComboBox cmbPacijent, DataGridView dataGridView1)
+        {
+            try
+            {
+                Dijagnoza dijagnoza = (Dijagnoza)dataGridView1.SelectedRows[0].DataBoundItem;
+                foreach (var dij in listaTrenutnih)
+                {
+                   if (dij.NazivDijagnoze == dijagnoza.NazivDijagnoze && dij.OpisDijagnoze == dijagnoza.OpisDijagnoze
+                        && dij.Pacijent.IdPacijent == dijagnoza.Pacijent.IdPacijent && dij.Stomatolog.IdStomatolog == dijagnoza.Stomatolog.IdStomatolog
+                        && dij.DatumDijagnoze.Date == dijagnoza.DatumDijagnoze.Date)
+                    {
+                        var result = MessageBox.Show(
+                        $"Da li ste sigurni da zelite da obrisete dijagnozu od {dijagnoza.DatumDijagnoze} za pacijenta {dijagnoza.Pacijent.Ime} {dijagnoza.Pacijent.Prezime}", "Potvrda",
+                        MessageBoxButtons.YesNoCancel);
+                        if (result == DialogResult.Yes)
+                        {
+                            Odgovor odgovor = Transfer.Transfer.Instance.PosaljiZahtev(SistemskaOperacija.ObrisiDijagnozu, dijagnoza);
+                            if (odgovor != null && odgovor.Uspesno)
+                            {
+                                MessageBox.Show("Uspesno ste obrisali termin!");
+                                lista.Remove(dijagnoza);
+                                return;
+                            }
+                            else
+                            {
+                                MessageBox.Show("Greska pri brisanju termina!");
+                                return;
+                            }
+                        } else return;
+                    } 
+                }
+                MessageBox.Show("Nemate dozvolu da brisete ovu dijagnozu");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Morate selektovati dijagnozu");
+                return;
+            }
+        }
     }
 }

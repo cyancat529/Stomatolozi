@@ -93,6 +93,13 @@ namespace AplikacionaLogika
             return new Odgovor(true, "");
         }
 
+        public Odgovor ObrisiDijagnozu(Zahtev zahtev)
+        {
+            OpstaSistemskaOperacija o = new ObrisiDijagnozu();
+            o.execute((Dijagnoza)zahtev.Podaci);
+            return new Odgovor(true, "");
+        }
+
         public Odgovor SacuvajSlobodneTermine(Zahtev zahtev)
         {
             OpstaSistemskaOperacija o = new SacuvajSlobodneTermine((List<Termin>) zahtev.Podaci);
@@ -140,6 +147,13 @@ namespace AplikacionaLogika
             OpstaSistemskaOperacija o = new KartonPacijenta((List<Dijagnoza>) zahtev.Podaci);
             o.execute(null);
             return new Odgovor(true, "");
+        }
+
+        public Odgovor UcitajKartonPacijenta(Zahtev zahtev)
+        {
+            OpstaSistemskaOperacija o = new UcitajKartonPacijenta();
+            o.execute((KriterijumPretrage)zahtev.Podaci);
+            return new Odgovor(true, ((UcitajKartonPacijenta)o).Elementi);
         }
 
         public Odgovor UcitajListuStomatologa(Zahtev zahtev)

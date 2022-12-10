@@ -66,3 +66,26 @@ E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.exe
 E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.pdb
 E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosRacunaEF.resources
 E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosUslugeEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.exe.config
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.exe
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\bin\Debug\Podaci.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\bin\Debug\Podaci.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csprojAssemblyReference.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.AdministratorMeni.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.LoginEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PacijentMeni.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaStomatologaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaTerminaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.RegistracijaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.StomatologMeni.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosProblemaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosRacunaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosStomatologaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosTerminaEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosUslugeEF.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Properties.Resources.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.GenerateResource.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CopyComplete
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.exe
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.pdb

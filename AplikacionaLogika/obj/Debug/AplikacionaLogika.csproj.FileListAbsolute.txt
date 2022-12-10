@@ -31,3 +31,13 @@ E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.c
 E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CopyComplete
 E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.dll
 E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csprojAssemblyReference.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CopyComplete
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.pdb

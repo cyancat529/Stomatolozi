@@ -49,3 +49,19 @@ E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CoreCompileInput
 E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CopyComplete
 E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.exe
 E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Server.exe.config
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Server.exe
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Server.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\AplikacionaLogika.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Podaci.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Broker.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\AplikacionaLogika.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Podaci.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\bin\Debug\Broker.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.Form1.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.exe
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Server\obj\Debug\Server.pdb

@@ -25,3 +25,11 @@ E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CoreCompileInput
 E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CopyComplete
 E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.dll
 E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\bin\Debug\Broker.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\bin\Debug\Broker.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\bin\Debug\Podaci.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\bin\Debug\Podaci.pdb
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csprojAssemblyReference.cache
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CopyComplete
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\obj\Debug\Broker.dll
+C:\Users\Galaxia\Downloads\Ceo\Stomatolozi\Broker\obj\Debug\Broker.pdb

@@ -46,6 +46,7 @@
     <Compile Include="SistemskeOperacije\KartonPacijenta.cs" />
     <Compile Include="SistemskeOperacije\NadjiSlobodneTermine.cs" />
     <Compile Include="SistemskeOperacije\NadjiStomatologa.cs" />
+    <Compile Include="SistemskeOperacije\ObrisiDijagnozu.cs" />
     <Compile Include="SistemskeOperacije\ObrisiTermin.cs" />
     <Compile Include="SistemskeOperacije\OpstaSistemskaOperacija.cs" />
     <Compile Include="SistemskeOperacije\PrijaviPacijenta.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="SistemskeOperacije\SacuvajNovogStomatologa.cs" />
     <Compile Include="SistemskeOperacije\SacuvajNovuUslugu.cs" />
     <Compile Include="SistemskeOperacije\SacuvajSlobodneTermine.cs" />
+    <Compile Include="SistemskeOperacije\UcitajKartonPacijenta.cs" />
     <Compile Include="SistemskeOperacije\UcitajListuGradova.cs" />
     <Compile Include="SistemskeOperacije\UcitajListuPacijenata.cs" />
     <Compile Include="SistemskeOperacije\UcitajListuStomatologa.cs" />

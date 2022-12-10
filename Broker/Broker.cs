@@ -15,7 +15,7 @@ namespace Broker
 
         public Broker()
         {
-            Connection = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Stomatolozi;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            Connection = new SqlConnection(@"Data Source=galaxia-pc\sqlexpress;Initial Catalog=Stomatolozi;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
         }
         public void GenerickiUnos(IDomenskiObjekat objekat)

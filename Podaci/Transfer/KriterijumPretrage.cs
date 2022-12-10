@@ -13,11 +13,17 @@ namespace Podaci.Transfer
     {
         public string Tekst { get; set; }
         public Stomatolog Stomatolog { get; set; }
+        public Pacijent Pacijent { get; set; }
 
         public KriterijumPretrage(string tekst, Stomatolog stomatolog)
         {
             Tekst = tekst;
             Stomatolog = stomatolog;
+        }
+
+        public KriterijumPretrage(Pacijent pacijent)
+        {
+            Pacijent = pacijent;
         }
 
         public string NazivTabele(bool extend)

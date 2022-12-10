@@ -20,7 +20,8 @@ namespace Podaci.Transfer
         NadjiTermine, 
         UcitajTermin, 
         VratiTerminePoKriterijumu, 
-        ObrisiTermin, 
+        ObrisiTermin,
+        ObrisiDijagnozu,
         SacuvajSlobodneTermine, 
         SacuvajNovogStomatologa,
         SacuvajNoviRacun,
@@ -28,6 +29,7 @@ namespace Podaci.Transfer
         UcitajListuGradova,
         UcitajListuPacijenata, 
         KartonPacijenta,
+        UcitajKartonPacijenta,
         UcitajListuStomatologa
 
     }
