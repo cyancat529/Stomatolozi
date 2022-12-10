@@ -179,6 +179,8 @@ namespace Klijent.Kontroleri
                             {
                                 MessageBox.Show("Uspesno ste obrisali termin!");
                                 lista.Remove(dijagnoza);
+                                listaTrenutnih.Remove(dijagnoza);
+                                dataGridView1.DataSource = lista;
                                 return;
                             }
                             else
