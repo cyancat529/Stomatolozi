@@ -1,0 +1,33 @@
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csprojAssemblyReference.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CoreCompileInputs.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CopyComplete
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.pdb
+C:\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.dll
+C:\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.pdb
+C:\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.dll
+C:\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.dll
+C:\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.pdb
+C:\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.pdb
+C:\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csprojAssemblyReference.cache
+C:\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CoreCompileInputs.cache
+C:\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CopyComplete
+C:\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.dll
+C:\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.pdb
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.dll
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\AplikacionaLogika.pdb
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.dll
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.dll
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Broker.pdb
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\bin\Debug\Podaci.pdb
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csprojAssemblyReference.cache
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CoreCompileInputs.cache
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.csproj.CopyComplete
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.dll
+E:\Program Files\Ceo\Stomatolozi\AplikacionaLogika\obj\Debug\AplikacionaLogika.pdb

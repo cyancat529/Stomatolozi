@@ -1,0 +1,51 @@
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Server.exe.config
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Server.exe
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Server.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\AplikacionaLogika.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Podaci.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Broker.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\AplikacionaLogika.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Podaci.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\bin\Debug\Broker.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.Form1.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.exe
+C:\Users\nikola.colic\source\repos\Stomatolozi\Server\obj\Debug\Server.pdb
+C:\Ceo\Stomatolozi\Server\bin\Debug\Server.exe.config
+C:\Ceo\Stomatolozi\Server\bin\Debug\Server.exe
+C:\Ceo\Stomatolozi\Server\bin\Debug\Server.pdb
+C:\Ceo\Stomatolozi\Server\bin\Debug\AplikacionaLogika.dll
+C:\Ceo\Stomatolozi\Server\bin\Debug\Podaci.dll
+C:\Ceo\Stomatolozi\Server\bin\Debug\Broker.dll
+C:\Ceo\Stomatolozi\Server\bin\Debug\AplikacionaLogika.pdb
+C:\Ceo\Stomatolozi\Server\bin\Debug\Podaci.pdb
+C:\Ceo\Stomatolozi\Server\bin\Debug\Broker.pdb
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.Form1.resources
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.exe
+C:\Ceo\Stomatolozi\Server\obj\Debug\Server.pdb
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Server.exe.config
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Server.exe
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Server.pdb
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\AplikacionaLogika.dll
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Podaci.dll
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Broker.dll
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\AplikacionaLogika.pdb
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Podaci.pdb
+E:\Program Files\Ceo\Stomatolozi\Server\bin\Debug\Broker.pdb
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.Form1.resources
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.Properties.Resources.resources
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.GenerateResource.cache
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.csproj.CopyComplete
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.exe
+E:\Program Files\Ceo\Stomatolozi\Server\obj\Debug\Server.pdb

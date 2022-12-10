@@ -1,0 +1,27 @@
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\bin\Debug\Broker.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\bin\Debug\Broker.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\bin\Debug\Podaci.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\bin\Debug\Podaci.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\obj\Debug\Broker.csprojAssemblyReference.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\obj\Debug\Broker.csproj.CoreCompileInputs.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\obj\Debug\Broker.csproj.CopyComplete
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\obj\Debug\Broker.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Broker\obj\Debug\Broker.pdb
+C:\Ceo\Stomatolozi\Broker\bin\Debug\Broker.dll
+C:\Ceo\Stomatolozi\Broker\bin\Debug\Broker.pdb
+C:\Ceo\Stomatolozi\Broker\bin\Debug\Podaci.dll
+C:\Ceo\Stomatolozi\Broker\bin\Debug\Podaci.pdb
+C:\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csprojAssemblyReference.cache
+C:\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CoreCompileInputs.cache
+C:\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CopyComplete
+C:\Ceo\Stomatolozi\Broker\obj\Debug\Broker.dll
+C:\Ceo\Stomatolozi\Broker\obj\Debug\Broker.pdb
+E:\Program Files\Ceo\Stomatolozi\Broker\bin\Debug\Broker.dll
+E:\Program Files\Ceo\Stomatolozi\Broker\bin\Debug\Broker.pdb
+E:\Program Files\Ceo\Stomatolozi\Broker\bin\Debug\Podaci.dll
+E:\Program Files\Ceo\Stomatolozi\Broker\bin\Debug\Podaci.pdb
+E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csprojAssemblyReference.cache
+E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CoreCompileInputs.cache
+E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.csproj.CopyComplete
+E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.dll
+E:\Program Files\Ceo\Stomatolozi\Broker\obj\Debug\Broker.pdb

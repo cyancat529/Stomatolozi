@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FF24875-7BD1-49DF-8F5E-975921EA75C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Klijent</RootNamespace>
+    <AssemblyName>Klijent</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ekranske_forme\AdministratorMeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\AdministratorMeni.Designer.cs">
+      <DependentUpon>AdministratorMeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\LoginEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\LoginEF.Designer.cs">
+      <DependentUpon>LoginEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\PacijentMeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\PacijentMeni.Designer.cs">
+      <DependentUpon>PacijentMeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\PretragaStomatologaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\PretragaStomatologaEF.Designer.cs">
+      <DependentUpon>PretragaStomatologaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\PretragaTerminaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\PretragaTerminaEF.Designer.cs">
+      <DependentUpon>PretragaTerminaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\RegistracijaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\RegistracijaEF.Designer.cs">
+      <DependentUpon>RegistracijaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\StomatologMeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\StomatologMeni.Designer.cs">
+      <DependentUpon>StomatologMeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosProblemaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosProblemaEF.Designer.cs">
+      <DependentUpon>UnosProblemaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosRacunaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosRacunaEF.Designer.cs">
+      <DependentUpon>UnosRacunaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosStomatologaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosStomatologaEF.Designer.cs">
+      <DependentUpon>UnosStomatologaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosTerminaEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosTerminaEF.Designer.cs">
+      <DependentUpon>UnosTerminaEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosUslugeEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekranske_forme\UnosUslugeEF.Designer.cs">
+      <DependentUpon>UnosUslugeEF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroleri\KontrolerLogin.cs" />
+    <Compile Include="Kontroleri\KontrolerPretragaStomatologa.cs" />
+    <Compile Include="Kontroleri\KontrolerPretragaTermina.cs" />
+    <Compile Include="Kontroleri\KontrolerRegistracija.cs" />
+    <Compile Include="Kontroleri\KontrolerUnosProblema.cs" />
+    <Compile Include="Kontroleri\KontrolerUnosRacuna.cs" />
+    <Compile Include="Kontroleri\KontrolerUnosStomatologa.cs" />
+    <Compile Include="Kontroleri\KontrolerUnosTermina.cs" />
+    <Compile Include="Kontroleri\KontrolerUnosUsluge.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transfer\Transfer.cs" />
+    <EmbeddedResource Include="Ekranske_forme\AdministratorMeni.resx">
+      <DependentUpon>AdministratorMeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\LoginEF.resx">
+      <DependentUpon>LoginEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\PacijentMeni.resx">
+      <DependentUpon>PacijentMeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\PretragaStomatologaEF.resx">
+      <DependentUpon>PretragaStomatologaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\PretragaTerminaEF.resx">
+      <DependentUpon>PretragaTerminaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\RegistracijaEF.resx">
+      <DependentUpon>RegistracijaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\StomatologMeni.resx">
+      <DependentUpon>StomatologMeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\UnosProblemaEF.resx">
+      <DependentUpon>UnosProblemaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\UnosRacunaEF.resx">
+      <DependentUpon>UnosRacunaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\UnosStomatologaEF.resx">
+      <DependentUpon>UnosStomatologaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\UnosTerminaEF.resx">
+      <DependentUpon>UnosTerminaEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekranske_forme\UnosUslugeEF.resx">
+      <DependentUpon>UnosUslugeEF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Podaci\Podaci.csproj">
+      <Project>{4EC765C4-B9CE-4043-8D28-6DF0D4CF47D2}</Project>
+      <Name>Podaci</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+E:\Program Files\Ceo\Stomatolozi\Podaci\bin\Debug\Podaci.dll
+E:\Program Files\Ceo\Stomatolozi\Podaci\bin\Debug\Podaci.pdb
+E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.csprojAssemblyReference.cache
+E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.csproj.CoreCompileInputs.cache
+E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.dll
+E:\Program Files\Ceo\Stomatolozi\Podaci\obj\Debug\Podaci.pdb

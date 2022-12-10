@@ -1,0 +1,68 @@
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.csprojAssemblyReference.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.AdministratorMeni.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.LoginEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PacijentMeni.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaStomatologaEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaTerminaEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.RegistracijaEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.StomatologMeni.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosProblemaEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosStomatologaEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosTerminaEF.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.Properties.Resources.resources
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.GenerateResource.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CoreCompileInputs.cache
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\bin\Debug\Klijent.exe.config
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\bin\Debug\Klijent.exe
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\bin\Debug\Klijent.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\bin\Debug\Podaci.dll
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\bin\Debug\Podaci.pdb
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CopyComplete
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.exe
+C:\Users\nikola.colic\source\repos\Stomatolozi\Klijent\obj\Debug\Klijent.pdb
+C:\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.exe.config
+C:\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.exe
+C:\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.pdb
+C:\Ceo\Stomatolozi\Klijent\bin\Debug\Podaci.dll
+C:\Ceo\Stomatolozi\Klijent\bin\Debug\Podaci.pdb
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csprojAssemblyReference.cache
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.AdministratorMeni.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.LoginEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PacijentMeni.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaStomatologaEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaTerminaEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.RegistracijaEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.StomatologMeni.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosProblemaEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosStomatologaEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosTerminaEF.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Properties.Resources.resources
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.GenerateResource.cache
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CoreCompileInputs.cache
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CopyComplete
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.exe
+C:\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.pdb
+E:\Program Files\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.exe.config
+E:\Program Files\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.exe
+E:\Program Files\Ceo\Stomatolozi\Klijent\bin\Debug\Klijent.pdb
+E:\Program Files\Ceo\Stomatolozi\Klijent\bin\Debug\Podaci.dll
+E:\Program Files\Ceo\Stomatolozi\Klijent\bin\Debug\Podaci.pdb
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csprojAssemblyReference.cache
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.AdministratorMeni.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.LoginEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PacijentMeni.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaStomatologaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.PretragaTerminaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.RegistracijaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.StomatologMeni.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosProblemaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosStomatologaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosTerminaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Properties.Resources.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.GenerateResource.cache
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CoreCompileInputs.cache
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.csproj.CopyComplete
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.exe
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.pdb
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosRacunaEF.resources
+E:\Program Files\Ceo\Stomatolozi\Klijent\obj\Debug\Klijent.Ekranske_forme.UnosUslugeEF.resources
